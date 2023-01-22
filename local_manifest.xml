@@ -2,7 +2,7 @@
 <manifest>
 
 <remote  name="darshan"
-         fetch="https://github.com/khirendra03" />
+         fetch="https://github.com/mevadadarshan19" />
 
 <remote  name="rk"
          fetch="https://github.com/asus-sdm660-devs" />
