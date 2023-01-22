@@ -21,9 +21,9 @@
 
  <!-- Trees -->
  <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="darshan" revision="evo-13" />
- <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="darshan" revision="test" />
- <project path="vendor/asus" name="proprietary_vendor_asus" remote="darshan" revision="test" />
- <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="darshan" revision="temp" />
+ <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="darshan" revision="13" />
+ <project path="vendor/asus" name="proprietary_vendor_asus" remote="darshan" revision="lineage-19.1" />
+ <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="darshan" revision="13-old" />
  
  <!-- clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="compiler" revision="master" clone-depth="1" />
