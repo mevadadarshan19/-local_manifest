@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote  name="arrowos"
+<remote name="arrowos"
            fetch="https://github.com/ArrowOS-Devices"
 	
-<remote  name="darshan"
+<remote name="darshan"
            fetch="https://github.com/mevadadarshan19" />
 
 <remote name="varun" 
