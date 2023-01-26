@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="arrowos"
-           fetch="https://github.com/ArrowOS-Devices"
+           fetch="https://github.com/ArrowOS-Devices" />
 	
-
-           
+<remote name="darshan"
+           fetch="http://github.com/mevadadarshan19" />
 
 <remote name="varun" 
            fetch="https://gitlab.com/GhostMaster69-dev" />
