@@ -3,8 +3,8 @@
 <remote name="arrowos"
            fetch="https://github.com/ArrowOS-Devices"
 	
-<remote name="darshan"
-           fetch="https://github.com/mevadadarshan19" />
+
+           
 
 <remote name="varun" 
            fetch="https://gitlab.com/GhostMaster69-dev" />
