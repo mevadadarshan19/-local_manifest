@@ -25,7 +25,7 @@
            fetch="https://github.com/kdrag0n" />
 
   <!-- Trees -->
-  <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="darshan" revision="13" clone-depth="1" />
+  <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="darshan" revision="lineage" clone-depth="1" />
   <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="khirendra" revision="13" clone-depth="1" />
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="khirendra" revision="13" clone-depth="1" />
   <project path="kernel/asus/sdm660" name="android_kernel_asus_X01BD" remote="sonal" revision="arrow-13.0" clone-depth="1" />
