@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-       
-		
-	
+<remote name="darshan"
+fetch="http://github.com/mevadadarshan19" />
 	<remote name="sdm660"
           fetch="https://github.com/asus-sdm660-devs" />
 	
