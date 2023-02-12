@@ -15,8 +15,8 @@
 <remote name="ImSurajxD"
 		   fetch="https://gitlab.com/ImSurajxD" />
 
-<remote name="NerdZ3ns"
-		   fetch="https://github.com/NerdZ3ns" />
+<remote name="z3zens"
+		   fetch="https://github.com/z3zens" />
 
 <remote  name="compiler"
            fetch="https://gitlab.com/arrowos-project" />
@@ -28,7 +28,7 @@
   <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="darshan" revision="13" clone-depth="1" />
   <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="darshan" revision="13" clone-depth="1" />
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="khirendra" revision="13" clone-depth="1" />
-  <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="NerdZ3ns" revision="tm-rebase" clone-depth="1" />
+  <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="z3zens" revision="thirteen-hmp" clone-depth="1" />
 
   <!-- clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" clone-depth="1" revision="release/14.x" remote="varun" />
