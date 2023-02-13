@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="darshan"
-
            fetch="http://github.com/mevadadarshan19" />
+
 <remote  name="khirendra"
            fetch="https://github.com/khirendra03" />
 
