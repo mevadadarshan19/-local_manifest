@@ -30,8 +30,7 @@
 
 	
 
- 	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="clang" revision="clang-14.0.6" />
-
+ 	
 	
 
 </manifest>
