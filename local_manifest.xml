@@ -14,9 +14,9 @@
 
           fetch="https://github.com/mevadadarshan19" />
 
-        <remote name="karthik1896"
+        <remote name="clang"
 
-          fetch="https://github.com/karthik1896" />
+          fetch="https://gitlab.com/anandhan07" />
 
 	
 
@@ -24,13 +24,13 @@
 
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common-1" remote="darshan" revision="lineage-20" />
 
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="karthik1896" revision="13" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="z3zens" revision="lineage-20" />
 
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="z3zens" revision="lineage-20" />
 
 	
 
  	
-	
+	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="clang" revision="clang-14.0.6" />
 
 </manifest>
