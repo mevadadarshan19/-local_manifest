@@ -16,7 +16,7 @@
 
         <remote name="clang"
 
-          fetch="https://gitlab.com/anandhan07" />
+          fetch="https://gitlab.com/Amritorock" />
 
 	
 
@@ -31,6 +31,5 @@
 	
 
  	
-	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="clang" revision="clang-14.0.6" />
-
+	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 </manifest>
