@@ -20,7 +20,7 @@
 
 	
 
-        <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="darshan" revision="lineage-20.0" clone-depth="1" />
+        <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="darshan" revision="superior" clone-depth="1" />
 
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="darshan" revision="derp" clone-depth="1" />
 
