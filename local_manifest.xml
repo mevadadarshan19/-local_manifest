@@ -6,7 +6,7 @@
 
  <remote name="darshan" fetch="https://github.com/mevadadarshan19" />
 
-  <remote name="clang" fetch="https://gitlab.com/Amritorock" />
+ <remote name="clang" fetch="https://gitlab.com/Amritorock" />
 
  <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="darshan" revision="lineage-20.0" clone-depth="1" />
 
@@ -16,5 +16,7 @@
 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 
-				</manifest>
+ <project path="vendor/dolby" name="vendor_dolby" remote="darshan" revision="main" clone-depth="1" />
+
+</manifest>
 
