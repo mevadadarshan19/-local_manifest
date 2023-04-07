@@ -1,23 +1,20 @@
+?xml version="1.0" encoding="UTF-8"?>
 
-<!-- Remotes -->
-    <remote name="arrow-devices" fetch="https://github.com/ArrowOS-Devices" />
-    <remote name="blissroms" fetch="https://github.com/BlissRoms" />
-    <remote name="gitlab" fetch="https://gitlab.com/" />
-    <remote name="los" fetch="https://github.com/LineageOS" />
-    <remote name="me" fetch="https://github.com/mevadadarshan19" />
-    <remote name="me-gitlab" fetch="https://gitlab.com/acastillorobles77" />
-    <remote name="pixel-github" fetch="https://github.com/PixelExperience" />
-    <remote name="pixelos" fetch="https://github.com/PixelOS-AOSP" />
+<manifest>
 
-    <!-- Trees -->
-    <project path="device/xiaomi/vayu" name="device_xiaomi_vayu.git" remote="me" revision="pixelos-13.0" />
-    <project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu.git" remote="arrow-devices" revision="arrow-13.0" />
-    <project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu.git" remote="me" revision="arrow-13.0" />
+ <remote name="z3zens" fetch="https://github.com/z3zens" />
 
-    <!-- Addons -->
-    <project path="hardware/xiaomi" name="hardware_xiaomi.git" remote="pixelos" revision="thirteen" />
-    <project path="prebuilts/clang/host/linux-x86/proton" name="kdrag0n/proton-clang.git" remote="github" revision="master" clone-depth="1" />
-    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d.git" remote="gitlab" revision="master" clone-depth="1" />
+ <remote name="darshan" fetch="https://github.com/mevadadarshan19" />
 
-   
-</manifest>
+  <remote name="clang" fetch="https://gitlab.com/Amritorock" />
+
+ <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="darshan" revision="lineage-20.0" clone-depth="1" />
+
+ <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="darshan" revision="derp" clone-depth="1" />	 <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="z3zens" revision="lineage-20" clone-depth="1" />
+
+ <project path="vendor/asus" name="proprietary_vendor_asus" remote="darshan" revision="lineage-20" clone-depth="1" />
+
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
+
+				</manifest>
+
