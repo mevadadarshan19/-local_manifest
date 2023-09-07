@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="arrowos"
-           fetch="https://github.com/ArrowOS-Devices" />
-	
-<remote name="darshan"
-           fetch="http://github.com/mevadadarshan19" />
+
+<remote  name="khirendra"
+           fetch="https://github.com/khirendra03" />
 
 <remote name="varun" 
            fetch="https://gitlab.com/GhostMaster69-dev" />
@@ -24,11 +22,14 @@
 <remote  name="prcl"
            fetch="https://github.com/kdrag0n" />
 
+<remote  name="karthik"
+           fetch="https://github.com/karthik1896" /> 
+
   <!-- Trees -->
-  <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="sonal" revision="arrow-13.0" clone-depth="1" />
-  <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="darshan" revision="arrow-13.0" clone-depth="1" />
-  <project path="vendor/asus" name="android_vendor_asus_sdm660" remote="arrowos" revision="arrow-13.0" clone-depth="1" />
-  <project path="kernel/asus/sdm660" name="android_kernel_asus_X01BD" remote="arrowos" revision="arrow-13.0" clone-depth="1" />
+  <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="khirendra" revision="voltage" clone-depth="1" />
+  <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="khirendra" revision="13" clone-depth="1" />
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="khirendra" revision="13" clone-depth="1" />
+  <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="khirendra" revision="13-old" clone-depth="1" />
 
   <!-- clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" clone-depth="1" revision="release/14.x" remote="varun" />
@@ -37,4 +38,3 @@
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" clone-depth="1" revision="master" remote="prcl" />
 
 </manifest>
-
